@@ -1,3 +1,5 @@
+//if 2,3,4......n-1 == 0 than it is not prime
+
 #include <bits/stdc++.h>
 using namespace std;
 
