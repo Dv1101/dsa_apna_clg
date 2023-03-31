@@ -14,11 +14,11 @@ int main()
         {
             if(i==1 || j==1 || i==row || j==col)
             {
-                cout<<"*";
+                cout<<"* ";
             }
             else
             {
-                cout<<" ";
+                cout<<"  ";
             }
         }
         cout<<endl;

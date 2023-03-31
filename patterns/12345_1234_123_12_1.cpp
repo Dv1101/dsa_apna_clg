@@ -15,7 +15,14 @@ int main()
 
     for(int i=1; i<=n; i++)
     {
-        for(int j=1; j<=n+1-i; j++)
+        //For Mirror Triangle
+        // for(int j=1; j<=n+1-i; j++)
+        // {
+        //     cout<<j<<" ";
+        // }
+        // cout<<endl;
+
+        for(int j=1; j<=n-(n-i); j++)
         {
             cout<<j<<" ";
         }

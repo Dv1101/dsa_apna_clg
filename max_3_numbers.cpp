@@ -1,21 +1,22 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int a, b, c;
-    cout<<"Enter three numbers"<<endl;
+    std::cout<<"Enter three numbers"<<std::endl;
     cin>>a>>b>>c;
 
     if(a>b)
     {
         if(a>c)
         {
-            cout<<a<<" is maximum number."<<endl;
+            std::cout<<a<<" is maximum number."<<std::endl;
         }
         else
         {       
-            cout<<c<<" is maximum number."<<endl;
+            std::cout<<c<<" is maximum number."<<std::endl;
         }
     }
 
@@ -23,11 +24,11 @@ int main()
     {
         if(b>c)
         {
-            cout<<b<<" is maximum number."<<endl;
+            std::cout<<b<<" is maximum number."<<std::endl;
         }
         else
         {
-            cout<<c<<" is maximum number."<<endl;
+            std::cout<<c<<" is maximum number."<<std::endl;
         }
     }
     return 0;

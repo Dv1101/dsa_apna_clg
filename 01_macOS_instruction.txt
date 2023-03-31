@@ -1,0 +1,12 @@
+macOS bits/stdc++.h library not installed. SO we have to manually load it.
+
+i'm using both xcode and mingw-w64 from HomeBrew Package Manager.
+
+using finder go to /Library/Developer/CommandLineTools/usr/include/c++/v1
+make a folder called bits
+make a file called stdc++.h inside bits folder
+copy content from _https://github.com/tekfyl/bits-stdc-.h-for-mac/blob/master/stdc%2B%2B.h_ into stdc++.h
+
+Also, Note that when using bits/stdc++.h with using namespace std it will still required to used iostream library :) 
+iostream + using namespace std works. but not with bits/stdc++.h 
+in windows mingw both works. so whenever there is bits.stdc++.h library, i used iostream too. and implicitly called std::cout;

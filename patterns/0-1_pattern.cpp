@@ -4,6 +4,8 @@
 //0 1 0 1
 //1 0 1 0 1
 
+//Every odd positon of i+j index is 0
+
 
 #include<iostream>
 using namespace std;

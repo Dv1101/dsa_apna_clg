@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -13,21 +14,21 @@ int main()
     short int ssi;
     double di;
 
-    cout<<"Size of INT is "<<sizeof(a)<<endl;
+    std::cout<<"Size of INT is "<<sizeof(a)<<std::endl;
     
-    cout<<"Size of FLOAT is "<<sizeof(b)<<endl;
+    std::cout<<"Size of FLOAT is "<<sizeof(b)<<std::endl;
 
-    cout<<"Size of CHARACTER is "<<sizeof(c)<<endl;
+    std::cout<<"Size of CHARACTER is "<<sizeof(c)<<std::endl;
 
-    cout<<"Size of BOOLEAN is "<<sizeof(d)<<endl;
+    std::cout<<"Size of BOOLEAN is "<<sizeof(d)<<std::endl;
 
-    cout<<"Size of UNSIGNED INT is "<<sizeof(ui)<<endl;
+    std::cout<<"Size of UNSIGNED INT is "<<sizeof(ui)<<std::endl;
 
-    cout<<"Size of SIGNED INT is "<<sizeof(si)<<endl;
+    std::cout<<"Size of SIGNED INT is "<<sizeof(si)<<std::endl;
 
-    cout<<"Size of LONG INT is "<<sizeof(li)<<endl;
+    std::cout<<"Size of LONG INT is "<<sizeof(li)<<std::endl;
 
-    cout<<"Size of SHORT INT is "<<sizeof(ssi)<<endl;
+    std::cout<<"Size of SHORT INT is "<<sizeof(ssi)<<std::endl;
 
-    cout<<"Size of DOUBLE is "<<sizeof(di)<<endl;
+    std::cout<<"Size of DOUBLE is "<<sizeof(di)<<std::endl;
 }

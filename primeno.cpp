@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int n;
-    cout<<"Enter number to check whether it's PRIME or Not PRIME."<<endl;
+    std::cout<<"Enter number to check whether it's PRIME or Not PRIME."<<std::endl;
     cin>>n;
 
     int i;
@@ -12,13 +13,13 @@ int main()
     {
         if(n%i==0)
         {
-            cout<<"It is non-PRIME."<<endl;
+            std::cout<<"It is non-PRIME."<<std::endl;
             break;
         }
     }
     if(i==n)
     {
-        cout<<"It is PRIME."<<endl;
+        std::cout<<"It is PRIME."<<std::endl;
     }
     return 0;
 }
