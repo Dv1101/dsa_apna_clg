@@ -61,7 +61,4 @@ int main()
     cout<<endl;
     cout<<"SOrted Array is : ";
     printArray(arr, n);
-
-    char mystring = '123H';
-    cout<<mystring;
 }
