@@ -8,8 +8,7 @@ int factorial(int n)
         return 1;
     }
 
-    int prevfactorial = factorial(n-1);
-    return n * prevfactorial;
+    return n * factorial(n-1);
 }
 
 int main()
