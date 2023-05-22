@@ -131,6 +131,69 @@ void sorting()
     } while (swapped);
 }
 
+void sortingdescending()
+{
+    /*struct Node* ptr;
+    ptr = head;
+    int n = 0;
+    while (ptr != NULL)
+    {
+        n++;
+        ptr = ptr->next;
+    }
+
+    struct Node* curr;
+    struct Node* index;
+    curr = head;
+    index = head->next;
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = i + 1; j < n; j++)
+        {
+            if ((curr != NULL && index != NULL) && (curr->data) > (index->data))
+            {
+                int temp = curr->data;
+                curr->data = index->data;
+                index->data = temp;
+            }
+            if(curr != NULL && index != NULL)
+            {
+                index = index->next;
+            }
+            else{
+                break;
+            }
+            
+        }
+        curr = curr->next;
+    }*/
+    if (head == NULL || head->next == NULL)
+        return;
+
+    struct Node* curr;
+    struct Node* prev = NULL;
+    bool swapped;
+
+    do {
+        swapped = false;
+        curr = head;
+
+        while (curr->next != prev) {
+            if (curr->data > curr->next->data) {
+                int temp = curr->data;
+                curr->data = curr->next->data;
+                curr->next->data = temp;
+                swapped = true;
+            }
+
+            curr = curr->next;
+        }
+
+        prev = curr;
+    } while (swapped);
+}
+
 void display() {
    struct Node* ptr;
    ptr = head;
@@ -160,6 +223,7 @@ int main() {
     cout<<"\n 3) End";
     cout<<"\n 4) Search";
     cout<<"\n 5) Sort";
+    cout<<"\n 6) Sort in Descending";
     int choice;
     cout<<endl;
     cin>>choice;
@@ -185,6 +249,9 @@ int main() {
             break;
         case 5:
             sorting();
+            break;
+        case 6:
+            sortingdescending();
             break;
     }
 
