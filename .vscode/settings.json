@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "bitset": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "__node_handle": "cpp"
     }
 }

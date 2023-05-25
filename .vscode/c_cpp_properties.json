@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\msys64\\mingw64\\bin"
+                "C:\\msys64\\mingw64\\bin",
+                "/Library/Developer/CommandLineTools/usr/include/c++/v1"
             ],
             "defines": [
                 "_DEBUG",
