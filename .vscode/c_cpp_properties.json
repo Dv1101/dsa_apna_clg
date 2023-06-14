@@ -1,34 +1,17 @@
 {
     "configurations": [
         {
-            "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\msys64\\mingw64\\bin",
-                "/Library/Developer/CommandLineTools/usr/include/c++/v1"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "/usr/bin/g++",
-            "intelliSenseMode": "windows-gcc-x64"
-        },
-        {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\msys64\\mingw64\\bin",
-                "/Library/Developer/CommandLineTools/usr/include/c++/v1"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe"
         }
     ],
     "version": 4
