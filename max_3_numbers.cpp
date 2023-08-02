@@ -3,7 +3,7 @@
 using namespace std;
 
 int main()
-{
+{̃
     int a, b, c;
     std::cout<<"Enter three numbers"<<std::endl;
     cin>>a>>b>>c;
